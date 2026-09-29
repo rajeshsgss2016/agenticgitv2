@@ -21,7 +21,7 @@ For Python changes:
 
 - Validate external input.
 - Avoid command injection and unsafe code execution.
-- Do not disable CodeQL, branch protection, rulesets, or security scanning.
+- Do not bypass repository security controls.
 - Do not suppress a security finding without an explanation.
 - Never approve or merge the generated pull request.
 
