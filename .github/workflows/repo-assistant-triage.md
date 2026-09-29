@@ -9,6 +9,7 @@ on:
 
 engine:
   id: copilot
+  model: gpt-4.1
 
 skills:
   - .github/skills/secure-python
