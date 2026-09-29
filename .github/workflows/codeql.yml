@@ -16,14 +16,14 @@ permissions:
 
 jobs:
   analyze:
-    name: Analyze Python
+    name: Analyze GitHub Actions
     runs-on: ubuntu-latest
 
     strategy:
       fail-fast: false
       matrix:
         language:
-          - python
+          - actions
 
     steps:
       - name: Checkout repository
