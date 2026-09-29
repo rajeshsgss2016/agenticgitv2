@@ -23,7 +23,6 @@ permissions:
 concurrency:
   job-discriminator: ${{ github.run_id }}
 
-max-ai-credits: 50
 
 safe-outputs:
   create-pull-request:
